@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Taehoon Kang</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/daa6d1e32e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class = "logo">
+                <span style="--i:1">T</span>
+                <span style="--i:2">a</span>
+                <span style="--i:3">e</span>
+                <span style="--i:4">h</span>
+                <span style="--i:5">o</span>
+                <span style="--i:6">o</span>
+                <span style="--i:7">n</span>
+                <span style="--i:8"> </span>
+                <span style="--i:9"> </span>
+                <span style="--i:10">K</span>
+                <span style="--i:11">a</span>
+                <span style="--i:12">n</span>
+                <span style="--i:13">g</span>
+            </div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm Taehoon Kang</h1>
+            <p>
+
+            </p>
+            <p>Bachelor of Sience in Computer Science and Data Science</p>
+            
+            <p> University of Minnesota - Twin Cities</p>
+        
+        </div>
+    </div>
+    <div class = "images">
+        <img src="images/shape1.png" class ="shape1">
+        <img src ="images/pic2.png" class ="pic2">
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/background.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p></p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Language</span><br>Python, Java, C, C++, C#, HTML/CSS, JavaScript, TypeScript, SQL, Go, Golang, PHP, Swift, Kotlin, Dart, Rust</li>
+                        <li><span>Technologies/Framework </span><br> Flask, Django, React, React Native, Node.js, Vue.js, Angular, MongoDB, MySQL, Figma, Git/Github, WordPress, AWS, GCP, Neo4j, BootStrap, Spring Boot, PostgreSQL, .NET, Express.js, Firebase, Plotly, Pandas/li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>May 2024 - August 2024</span><br> Full-Stack Web Developer(Intern) - Choyces LLC</li>
+                        <p>
+                        </p>
+                        
+                         <li><span>May 2024 - August 2024</span><br> Generative AI Engineer(Intern) - Cognizant</li>
+                        <p>
+                        </p>
+                
+                        
+                      
+                        <li><span>August 2023 - December 2023</span><br>Junior Web Developer(Part-Time) - Mcnamara Alumni Center </li>
+                        <p>
+                            - Developed Python scripts utilizing Plotly and Pandas to automate routine updates and maintenance tasks, reducing manual workload by 40%
+                        </p>
+                        <p>
+                            - Crafted the McNamara Alumni Center website of overm 2000+ users using PHP, JavaScript, HTML, CSS,WordPress, Bootstrap,and jQuery, aimed at improving clear guidance on booking processes and user engagement, reducing manual workload by 20%.
+                        </p>
+                      
+
+
+                     
+                        <li><span>June 2023 - August 2023</span><br>Software Engineer(Intern) - Minnesota Supercomputing Institute</li>
+                        <p>
+                            - Provided expert assistance to users, focusing on\textbf{ Linux} command-line solutions, and efficiently resolved software-related issues, resulting in reducing 50% of manual workload
+                        </p>
+                        <p>
+                        - Redesigned MSI's ticket management system website for all department using Javascript, Veu.js, Node.js, Express, and MySQL, resulting in 40% increase in performance.
+                       </p>
+
+
+                         <li><span>June 2021 - August 2021</span><br>Software Engineer(Intern) - TransData</li>
+                        <p>
+                            - Refactored RESTful API endpoints using Spring Boot and Java on AWS to fetch historical data on user finances and healthcare records, resulting in a 10% reduction in data processing and optimizing response rates.
+                        </p>
+                        <p>
+                        - Drafted a fine-tuned conversational AI chatbot using C# and .NET on Microsoft Azure with MVP, Product-Grade builds and Dialogflow to optimize customer service and technical support, with upwards of 500+ users daily.
+                       </p>
+                       <p>
+                        - Implemented UI/UX changes to the Transdata Digital of over 1M+ users using JavaScript, React, and React Native, increasing the net promoter score by 30%
+                       </p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 August - Present </span><br>University of Minnesota Twin-Cities - Bachelor of Science in Computer Science and Data Science
+                            <p>- Dean’s List: Scholarly award for students who demonstrate <b>academic excellence</b>
+                                <p>
+                                    - Coursework: Computing and Programming Concepts, Discrete Structures of Computer Science, Algorithms and Data Structures,  Probability and Statistics, Machine Architecture and Organization, Advanced Programming Principles, Computational Linear Algebra
+                                </p> </p></li>
+                        
+                        <li><span>2019 May - 2022 May</span><br>Logos International School - High School Diploma
+                            <p>- Certificate of High Honor: Maintaining <b>all A's </b</p>
+                            <p>- Coursework: AP Computer Science Principles, AP Physics 1, AP Statistics, AP Calculus AB</p></li>                    </ul>
+                </div>
+                 <div class="tab-contents" id="Leadership">
+                    <ul>
+                        <li><span>2022 November - Present </span><br>App Developer Club
+                            <p>- Engaging in workshops and training sessions tailored to React, SQL, Swift, Firebase, and Node.js to advance proficiency in full stack development.
+                                <p>
+                                    - Contributed to collaborative projects like Gopher Tunnel, collaborating with UX/UI designers, frontend
+developers, and backend developers to address and resolve issues at the University of Minnesota Twin Cities.                                
+                                </p> </p></li>
+                        
+                        <li><span>November 2023 - Present </span><br>Logos International School - High School Diploma
+                            <p>Collaborated closely with the backend team to seamlessly integrate frontend and backend components for the
+official website of KCSO.</p>
+                            <p>Directed a team of frontend developers, delegating tasks and ensuring timely completion of projects.</p></li>                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------projects---------------- -->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="Projects-list">
+            <div>
+                <i class="fa-regular fa-map"></i>
+                <h2>Gopher Tunnel</h2>
+                <p> 
+                    Collaborated with 30 designers, developers, and project managers to develop a user-friendly 3D map application for the University of Minnesota, aimed at aiding 8M+ students, professors, and faculty in navigating over 50 campus buildings. My role involved facilitating collaboration between designers and developers using tools like Figma and React Native to ensure aesthetic and functional consistency. I also spearheaded the integration of Neo4j and Google Cloud Platform, leveraging TypeScript, React Native, and ExpressJS to enhance data management efficiency and streamline front-end development and data processing.
+                </p>
+                <a href="https://github.com/gopher-tunnels">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-building"></i>
+                <h2>Mcnamara Alumni Center Website</h2>
+                <p> 
+                    Worked with a team of four developers, designers, and engineers to enhance a WordPress website, implementing backend logic and frontend interactivity with PHP, JavaScript, and CSS, supported by MySQL database integration. We utilized Bootstrap and jQuery within the WordPress framework to optimize responsive design and dynamic user experiences, facilitating advanced functionality through custom plugins and themes.
+                </p>
+                <a href="https://mac-events.org/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Korean Computer Scientist Organization's Official Website</h2>
+                <p> 
+                    Led a three-member team, including a backend developer, designers, and a project manager, to create the official website for the Korean Computer Scientist Organization. Our goal was to establish a central hub for over 40 members to communicate and access resources. We developed the website using JavaScript, HTML, CSS, Node.js, and ExpressJS, enhancing server-side logic and user experience by optimizing MongoDB database schemas.
+                </p>
+                <a href="https://github.com/thkang091/KCSO-Official-Website">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h2> Minesweeper</h2>
+                <p>Developed a Java-based Minesweeper game featuring difficulty selection, dynamic minefield generation, and user-friendly input validation. Implemented core gameplay mechanics, including revealing cells, flag placement, and game-over scenarios. Employed object-oriented programming principles and data structures for modular and scalable code. Demonstrates proficiency in Java programming and algorithmic problem-solving.
+                </p>
+                <a href="https://github.com/thkang091/Minefield">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chess"></i>              
+                <h2> Chess</h2>
+                <p> Devloped a Java-based fully functional chess game with comprehensive coverage of movement rules for various chess pieces, such as Rook, Pawn, Knight, Queen, and King. It incorporates an interactive game interface that enables users to make moves effortlessly, enhancing the overall experience with a user-friendly design. This implementation not only demonstrates proficiency in Java programming but also showcases a strong grasp of object-oriented design principles, meticulous testing practices utilizing JUnit, and a solid understanding of game development concepts.
+                </p>
+                <a href="https://github.com/thkang091/Chess">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class = "contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>kang0493@umn.edu</p>
+                <p><i class="fas fa-phone-square-alt"></i> +1 217-974-6228</p>
+                <div class="social-icons">
+                    <a href="https://github.com/thkang091"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/taehoon-kang"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Taehoon_Kang_Resume_2025.pdf" download class="btn btn2"> Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxvCWDUxnWP1NzMscBmpDZYPzf3nwQmWcBP6iMJyWn7JyhQ2HhaCQnAzgilX5_HLrGn/exec ' 
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
